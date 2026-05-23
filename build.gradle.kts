@@ -7,7 +7,7 @@ loom {
     accessWidenerPath.set(file("src/main/resources/sb-additions.accesswidener"))
 }
 
-version = "1.0.0"
+version = "2.0.0"
 group = "com.example"
 
 base { archivesName.set("SB-Utilities") }
