@@ -1,6 +1,8 @@
 .gradle/
 build/
+bin/
 run/
 .idea/
 *.iml
 out/
+.claude/
