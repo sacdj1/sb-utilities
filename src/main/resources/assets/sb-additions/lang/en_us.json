@@ -1,0 +1,8 @@
+{
+  "key.categories.sb-additions.category": "SB Utilities",
+
+  "key.sb-additions.wind-hud":    "Toggle Wind HUD",
+  "key.sb-additions.tool-swap":   "Toggle Tool Swap",
+  "key.sb-additions.no-break":    "Toggle No Break",
+  "key.sb-additions.no-interact": "Toggle No Interact"
+}

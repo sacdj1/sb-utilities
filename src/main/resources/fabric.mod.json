@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "sb-additions",
+    "version": "1.0.0",
+    "name": "SB Utilities",
+    "description": "Hypixel Skyblock QOL Utilities",
+    "authors": ["sacdj"],
+    "contact": {
+        "homepage": "https://modrinth.com/project/93DUqQup"
+    },
+    "icon": "icon.png",
+    "accessWidener": "sb-additions.accesswidener",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.example.sbadditions.SBAdditionsClient"
+        ],
+        "modmenu": [
+            "com.example.sbadditions.ModMenuApiImpl"
+        ]
+    },
+    "mixins": ["sb-additions.mixins.json"],
+    "depends": {
+        "fabricloader": ">=0.14",
+        "fabric-api": "*",
+        "minecraft": "~1.21.11"
+    }
+}
